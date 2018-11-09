@@ -14,9 +14,8 @@ Summary: LDAP Authenticator for JupyterHub
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/jupyterhub-ldapauthenticator-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/jupyterhub-ldapauthenticator-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/jupyterhub-ldapauthenticator-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/jupyterhub-ldapauthenticator-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyterhub-ldapauthenticator-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyterhub-ldapauthenticator-feedstock)
 
 Current release info
 ====================
