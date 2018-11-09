@@ -11,8 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [win or py<35]
-  # noarch: python
+  noarch: python
   number: 1000
   script: python -m pip install --no-deps --ignore-installed .
 
