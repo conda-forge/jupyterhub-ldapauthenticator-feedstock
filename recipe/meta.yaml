@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1000
+  number: 1001
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -42,3 +42,4 @@ extra:
   recipe-maintainers:
     - dhirschfeld
     - minrk
+    - consideRatio
