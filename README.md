@@ -5,7 +5,7 @@ Home: https://github.com/jupyterhub/ldapauthenticator
 
 Package license: BSD-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: LDAP Authenticator for JupyterHub
 
