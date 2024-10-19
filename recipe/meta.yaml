@@ -17,14 +17,13 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.9
     - pip
     - setuptools
   run:
-    - python >=3.5
-    - jupyterhub
-    - ldap3
-    - tornado
+    - python >=3.9
+    - jupyterhub >=4.1.6
+    - ldap3 >=2.9.1
     - traitlets
 
 test:
