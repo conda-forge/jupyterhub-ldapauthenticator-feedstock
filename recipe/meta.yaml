@@ -1,6 +1,6 @@
 {% set name = "jupyterhub-ldapauthenticator" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "b4b9d107e2300970409e5598f05d5b9fe9b666327da98895a33b855578925359" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "a519b4e024c0dd00b07ebc7beb94ecab2b099dce276038ba687918b57ff7eede" %}
 
 package:
   name: {{ name|lower }}
