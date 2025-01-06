@@ -7,33 +7,34 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - jupyterhub >=4.1.6
     - ldap3 >=2.9.1
     - traitlets
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - ldapauthenticator
 
 about:
   home: https://github.com/jupyterhub/ldapauthenticator
-  license: BSD-3
-  license_family: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: LDAP Authenticator for JupyterHub
 
