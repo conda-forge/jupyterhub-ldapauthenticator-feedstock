@@ -34,8 +34,7 @@ test:
 
 about:
   home: https://github.com/jupyterhub/ldapauthenticator
-  license: BSD-3
-  license_family: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: LDAP Authenticator for JupyterHub
 
